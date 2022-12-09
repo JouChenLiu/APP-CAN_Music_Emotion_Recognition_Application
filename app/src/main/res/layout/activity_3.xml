@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/sunroad"
+    tools:context=".Activity3">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:src="@drawable/sand"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="服務條款"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="我們提供多種 Can 服務選項。特定 Can 服務選項會免費提供給您，其他選項需要先付款才能存取。我們也可能提供特殊促銷方案、會員資格或服務，包括提供第三方產品和服務。我們對該第三方所提供的產品或服務概不負責。"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="並非所有使用者皆可使用無限制服務。我們將解釋您以身分可使用的服務有哪些。若您取消或是中斷所訂用的無限制服務，您可能無法再次訂用該無限制服務。請注意，未來可能中止無限制服務，如此一來，您無須再為該服務付費。"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="5dp"
+                    android:text="聯絡我們"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="20dp"
+                    android:text="傳送電子郵件至 privacy@can.com"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

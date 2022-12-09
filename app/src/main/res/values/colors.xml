@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="fill_120">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray0">#777370</color>
+
+    <color name="bg_color">#7230D1</color>
+
+    <color name="gray">#686663</color>
+    <color name="dark_gray">#595655</color>
+    <color name="green98B5AB">#98B5AB</color> <!--activity_main background-->
+    <color name="green4A715F">#4A715F</color>
+
+    <!--original-->
+    <color name="brown6">#bb9f74</color>
+
+    <color name="notification">#A08E7D</color>
+    <color name="private_account">#89A07D</color>
+    <color name="security">#7D9BA0</color>
+
+    <color name="transwhite">#83FFFFFF</color>
+    <color name="teal_blue">#03568E</color>
+    <color name="fill_blue">#D303568E</color>
+    <color name="brown">#CD732506</color>
+    <color name="blueradar">#FF1F2947</color>
+    <color name="blueradartrans">#D31C243E</color>
+    <color name="redradar">#E62222</color>
+    <color name="redradartras">#A1E62222</color>
+    <color name="transsongblue">#40353A5F</color>
+    <color name="songblue">#353A5F</color>
+
+    <color name="background">#3C187AF1</color>
+    <color name="sky">#B40A2C83</color>
+</resources>

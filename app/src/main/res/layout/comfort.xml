@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootView"
+    tools:context=".comfort">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <!--    <soup.neumorphism.NeumorphButton-->
+    <!--        android:id="@+id/button"-->
+    <!--        style="@style/Widget.Neumorph.Button"-->
+    <!--        app:neumorph_shadowElevation="2dp"-->
+    <!--        app:neumorph_shadowColorLight="#D1CCCA"-->
+    <!--        app:neumorph_shadowColorDark="#D1CCCA"-->
+    <!--        app:neumorph_lightSource="leftTop"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginStart="400dp"-->
+    <!--        android:layout_marginTop="570dp"-->
+    <!--        android:text="開始"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/viewPager2"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:neumorph_shapeType="basin"-->
+    <!--        app:neumorph_shapeAppearance="@style/Widget.Neumorph.Button"-->
+    <!--        app:neumorph_backgroundColor="@color/white"-->
+    <!--        app:neumorph_strokeColor="#D1CCCA"-->
+    <!--        app:neumorph_strokeWidth="@dimen/cardview_compat_inset_shadow"-->
+    <!--        app:neumorph_inset="12dp"-->
+    <!--        app:neumorph_insetStart="12dp"-->
+    <!--        app:neumorph_insetEnd="12dp"-->
+    <!--        app:neumorph_insetTop="12dp"-->
+    <!--        app:neumorph_insetBottom="12dp"-->
+    <!--        android:padding="12dp"/>-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/custom_button"
+        android:text="開始"
+        android:fontFamily="@font/yangran"
+        android:textAllCaps="false"
+        android:textColor="#85805A"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/viewPager2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/edit_fab"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:backgroundTint="#cfd9df"
+        android:contentDescription="@null"
+        android:elevation="6dp"
+        android:src="@drawable/ic_edit"
+        app:fabSize="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/aspect_ratio_fab"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_music"
+        android:backgroundTint="#cfd9df"
+        app:fabSize="normal"
+        app:layout_constraintCircle="@id/edit_fab"
+        app:layout_constraintCircleAngle="208"
+        app:layout_constraintCircleRadius="90dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/crop_fab"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_share"
+        android:backgroundTint="#cfd9df"
+        app:fabSize="normal"
+        app:layout_constraintCircle="@id/edit_fab"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="90dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wall">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_margin="6dp"
+        android:fontFamily="@font/yangran"
+        android:text="x, y軸, 代表你聽歌前後的心情狀態。以x軸為例: 界線為-9~+9, 由負到正的數值代表你的四種心情變化, 生氣/傷心/放鬆/快樂, 由此, 我們可以從數值了解自我心情"
+        android:textColor="#4C3575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

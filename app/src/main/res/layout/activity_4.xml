@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/sunroad"
+    tools:context=".Activity4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:src="@drawable/rain"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="資料備份"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="此功能開發中，敬請期待"
+                    android:textSize="22sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#8E3535"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="您可以將統計介面的圖表匯出成PDF檔，我們會將匯出檔寄至您的信箱中"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="您可以將播放紀錄的歌曲同步至您spotify的歌曲庫中"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="5dp"
+                    android:text="聯絡我們"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="20dp"
+                    android:text="傳送電子郵件至 privacy@can.com"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

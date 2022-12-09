@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueradar"
+    tools:context=".lyricsFragment">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="402dp"
+        android:layout_height="689dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="15dp"
+                android:textSize="25dp"
+
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:fontFamily="@font/yangran"
+
+
+                android:text="當一座城牆\n只為了阻擋 所有自由渴望\n
+當一份信仰\n再不能抵抗 遍地戰亂饑荒\n
+蘭陵撩亂茫 天地離人忘\n
+無畏孤塚葬 只怕蒼生殤\n
+夜未央 天未亮\n我在倖存的沙場\n
+只盼望 此生再\n奔向思念的臉龐\n
+淚未乾 心未涼\n是什麼依然在滾燙\n
+入陣曲 伴我無悔的狂妄\n
+當一份真相 隻手能隱藏\n直到人們遺忘\n
+寫一頁莽撞 我們的篇章\n曾經如此輝煌\n
+丹青千秋釀 一醉解愁腸\n
+無悔少年枉 只願壯志狂\n
+夜未央 天未亮\n我在倖存的沙場\n
+只盼望 此生再\n奔向思念的臉龐\n
+淚未乾 心未涼\n是什麼依然在滾燙\n
+入陣曲 伴我無悔的狂妄\n
+忘不記 原不諒 憤恨無疆\n肅不清 除不盡 魑魅魍魎\n
+幼無糧 民無房 誰在分贓\n千年後 你我都 仍被豢養\n
+夜未央 天未亮\n我在倖存的沙場\n
+只盼望 此生再\n奔向思念的臉龐\n
+淚未乾 心未涼\n是什麼依然在滾燙\n
+入陣曲 四面楚歌誰獨唱\n
+夜已央 天已亮\n白晝隱沒了星光\n
+像我們 都終將\n葬身歷史的洪荒\n
+當世人 都遺忘\n我血液曾為誰滾燙\n
+入陣曲 伴我無悔的狂妄\n
+入陣去 只因 恨鐵不成鋼\n
+"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

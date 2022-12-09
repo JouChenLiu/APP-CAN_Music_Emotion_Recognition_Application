@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/airplane_scene12"
+    tools:context=".grade">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="#E2EABE7E"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="100dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <ImageView
+                    android:id="@+id/signemotionimage"
+                    android:layout_width="129dp"
+                    android:layout_height="138dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="80dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/sad_removebg" />
+
+                <SeekBar
+                    android:id="@+id/signBar"
+                    android:layout_width="290dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="0dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.563"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/sign"
+                    android:layout_width="131dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="50dp"
+                    android:backgroundTint="#D0DF928D"
+                    android:fontFamily="@font/yangran"
+                    android:text="簽收"
+                    android:textStyle="bold"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

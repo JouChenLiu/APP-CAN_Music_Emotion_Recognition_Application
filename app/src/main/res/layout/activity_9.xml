@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/green"
+    tools:context=".Activity9">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:src="@drawable/leaves"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="關於App"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="10dp"
+                    android:text="Can是一款結合音樂串流和心情成長及調適的應用程式，我們以陪伴者的角色，在傾聽心情的當下，輕鬆紀錄情緒的浮波，協助你從各種音樂，找到心靈之歌，情緒之美"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="5dp"
+                    android:text="聯絡我們"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_margin="20dp"
+                    android:text="傳送電子郵件至 privacy@can.com"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/yangran"
+                    android:textColor="#1E1E1E"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

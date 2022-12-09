@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scene6">
+
+    <!--
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_usersend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.515">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yangran"
+            android:text="@string/goal1"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yangran"
+            android:text="@string/goal2"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yangran"
+            android:text="@string/goal3"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yangran"
+            android:text="@string/goal4"
+            android:textColor="@color/gray" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yangran"
+            android:text="@string/goal5"
+            android:textColor="@color/gray" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_usersend"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonpress"
+        android:fontFamily="@font/yangran"
+        android:text="@string/confirm"
+        android:textColor="@color/dark_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="404dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/yangran"
+        android:gravity="center"
+        android:text="@string/goal"
+        android:textColor="@color/dark_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#807970"
+    tools:context=".bubble_chart">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <com.androidplot.xy.XYPlot
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/xyPlot"
+            style="@style/APDefacto"
+            app:rangeTitle = "聽歌後 情緒值"
+            app:domainTitle = "聽歌前 情緒綜合值"
+            app:backgroundColor="#807970"
+            app:graphBackgroundColor="#807970"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:minHeight="600dp"
+            android:minWidth="200dp"
+            app:title="情緒泡泡(一周)" />
+
+    </ScrollView>
+
+</LinearLayout>

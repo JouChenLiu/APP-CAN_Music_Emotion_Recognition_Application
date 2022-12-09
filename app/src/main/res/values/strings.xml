@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">CAN</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next"><font size="35"><B>我想聽你說...</B></font></string>
+    <string name="confirm"><font size="34"><B>123 G0!</B></font></string>
+    <string name="musicprocess"><font size="36">目的地降落中</font></string>
+
+    <string name="EmoBar"><font size="50"><B>心情調酒  Bar</B></font></string>
+    <string name="EmoBar1"><font size="46">心情儲藏罐</font></string>
+
+    <string name="bar_0"><font size="34"><B>0</B></font></string>
+    <string name="bar_uplimit"><font size="34"><B>∞</B></font></string>
+    <string name="bar_n"><font size="34">負相關</font></string>
+    <string name="bar_p"><font size="34">正相關</font></string>
+
+    <string name="emo"><font size="41"><B>Hi~小明👋\n你今天過的如何?</B></font></string>
+    <string name="emo1"><font size="34"><B>悲傷</B></font></string>
+    <string name="emo2"><font size="36"><B>憤怒</B></font></string>
+    <string name="emo3"><font size="36"><B>放鬆</B></font></string>
+    <string name="emo4"><font size="36"><B>快樂</B></font></string>
+
+    <string name="goal"><font size="41"><B>我們一起走\n哪個心靈旅程呢?</B></font></string>
+    <string name="goal1"><font size="38"><B>想放鬆</B></font></string>
+    <string name="goal2"><font size="38"><B>快樂共鳴</B></font></string>
+    <string name="goal3"><font size="38"><B>擁抱傷痛</B></font></string>
+    <string name="goal4"><font size="38"><B>沉澱悲傷</B></font></string>
+    <string name="goal5"><font size="38"><B>一起去探險</B></font></string>
+
+    <string name="tape1"><font size="36">快樂共鳴</font></string>
+    <string name="tape2"><font size="36">放鬆</font></string>
+    <string name="tape3"><font size="36">暗夜之旅</font></string>
+    <string name="tape4"><font size="36">咆哮</font></string>
+    <string name="tape5"><font size="36">安慰</font></string>
+    <string name="tape6"><font size="36">擁抱</font></string>
+    <string name="tape7"><font size="36">鎮定劑</font></string>
+    <string name="tape8"><font size="36">思緒漫遊</font></string>
+
+    <string name="retry">Retry</string>
+    <string name="blindbox">探險趣</string>
+    <string name="mymusic">我的養分</string>
+    <string name="journal">小山丘</string>
+    <string name="mentalclock">心湖</string>
+    <string name="notification">訊息</string>
+    <string name="profile">我</string>
+    <string name="system">系統</string>
+
+    <string name="profile_page">SystemPage</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="music_listened">music_listened</string>
+
+    <string-array name="category">
+        <item>快樂共鳴</item>
+        <item>放鬆</item>
+        <item>暗夜之旅</item>
+        <item>咆哮</item>
+        <item>安慰</item>
+        <item>擁抱</item>
+        <item>鎮定劑</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

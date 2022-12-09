@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "356657672928",
+    "firebase_url": "https://mer-ncu-default-rtdb.firebaseio.com",
+    "project_id": "mer-ncu",
+    "storage_bucket": "mer-ncu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356657672928:android:d226d090a1653f2094d685",
+        "android_client_info": {
+          "package_name": "com.example.my_second_project_0621"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356657672928-t129fhajhib5okkt7agmdpbe0l5e8f9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ9B8a22pN78wUH6zkIg2J5aTwTyUOYw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356657672928-t129fhajhib5okkt7agmdpbe0l5e8f9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356657672928:android:2e0e5e7822b1e0e894d685",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356657672928-t129fhajhib5okkt7agmdpbe0l5e8f9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ9B8a22pN78wUH6zkIg2J5aTwTyUOYw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356657672928-t129fhajhib5okkt7agmdpbe0l5e8f9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

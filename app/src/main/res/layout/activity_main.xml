@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:background="@drawable/emotion_can_bg_5">
+
+    <Button
+        android:id="@+id/button_userbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/emotion_can_but_0"
+        android:fontFamily="@font/yangran"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/EmoBar1"
+        android:textColor="@color/dark_gray" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/notification"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="end|top"
+        android:backgroundTint="@color/white"
+        app:fabCustomSize="60dp"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/notification"
+        android:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+        app:fabCustomSize="80dp"
+        app:maxImageSize="50dp"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/can" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="79dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/lake_button_2"
+        app:fabCustomSize="69.9dp"
+        app:maxImageSize="73dp"
+        android:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/profile"
+        app:fabCustomSize="70dp"
+        app:maxImageSize="35dp"
+        android:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/heart_path_2"
+        app:fabCustomSize="67dp"
+        app:maxImageSize="40dp"
+        android:visibility="visible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="79dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/music1_2"
+        app:fabCustomSize="67dp"
+        app:maxImageSize="60dp"
+        android:visibility="visible" />
+
+</FrameLayout>
